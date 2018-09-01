@@ -1,3 +1,6 @@
 node_modules/
 recursions-laboratory/
 
+// private environment variables
+.env
+
