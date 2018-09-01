@@ -1,5 +1,5 @@
 node_modules/
-recursions-laboratory/
+client/
 
 // private environment variables
 .env
