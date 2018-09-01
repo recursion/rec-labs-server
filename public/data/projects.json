@@ -1,0 +1,65 @@
+{
+  "projects": {
+    "toy-projects": [
+      {
+        "name": "Simple Calculator",
+        "description": "A basic calculator written in vanilla JavaScript and css. This project was created using pure TDD and jest. Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/calculator.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/calculator",
+        "demoUrl": "/projects/calculator/index.html"
+      },
+      {
+        "name": "Simon Game",
+        "description": "A clone of the electronic game Simon with sound and lights! Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/simon.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/simon",
+        "demoUrl": "projects/simon/index.html"
+      },
+      {
+        "name": "Conway's Game of Life",
+        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
+        "imageUrl": "images/conways.png",
+        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
+        "githubUrl": "https://github.com/recursion/conways-game-of-life",
+        "demoUrl": "projects/conways/index.html"
+      }
+    ],
+    "applications": [
+      {
+        "name": "Newsy",
+        "description": "A web client for searching the newsapi.org api. Provides a simple interface to the many search options available. Uses a simple express server to act as an api-key providing proxy to the newsapi.org site.",
+        "imageUrl": "images/newsy.png",
+        "tags": ["JavaScript", "React", "Redux", "Webpack", "Bulma", "SCSS"],
+        "githubUrl": "https://github.com/recursion/newsy-react-client",
+        "demoUrl": "https://newsy.recursionslaboratory.org"
+      },
+      {
+        "name": "HotkeyCommander",
+        "description": "A javascript module, published to npm, that provides a drop-in, robust hotkey management system with simple end-user customization through hotkey recording and event subscriptions. This is the hotkey engine that powers JackBeNimble.",
+        "imageUrl": "images/hkc.png",
+        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
+        "githubUrl": "https://github.com/recursion/hotkeyCommander",
+        "demoUrl": ""
+      },
+      {
+        "name": "JackBeNimble",
+        "description": "A google chrome extension that provides user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible. This project was used extensivly by me, and after being published to the chrome web store, it did pick up a small number of users. As better options for crypto-exchange hotkeys emerged, I stopped maintaining the package, and pulled it from the store.",
+        "imageUrl": "images/jbk.png",
+        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
+        "githubUrl": "https://github.com/recursion/jackBeNimble",
+        "demoUrl": ""
+      },
+      {
+        "name": "FlyptoX",
+        "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer. Built using the 'agile' method, the project was created by a remote team of 5. We had some commercial interest in this project, but I was not willing to commit to maintaining this project as the lead developer.",
+        "imageUrl": "",
+        "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
+        "githubUrl": "https://github.com/flipside/flyptox",
+        "demoUrl": ""
+      }
+
+    ]
+  }
+}
